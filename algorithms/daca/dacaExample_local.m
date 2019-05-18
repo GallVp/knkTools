@@ -1,6 +1,6 @@
 %dacaExample_local
 %   This example script loads force plate data and marker data from example
-%   data files and applies Detect and Correct Algorithm
+%   data files and applies Detection and Correction Algorithm
 %   (DACA). The results are plotted.
 %
 %
@@ -12,11 +12,11 @@ clear
 close all
 clc
 
-%% Load Data
-load(fullfile(pwd, 'Data', 'example01_DS.mat'));
-%load(fullfile(pwd, 'Data', 'example01_SS.mat'));
+%% Load Data from example01_DS.mat or example01_SS.mat
+load(fullfile(pwd, 'Sample Data', 'example01_DS.mat'));
+%load(fullfile(pwd, 'Sample Data', 'example01_SS.mat'));
 
-%% Run Detect and Correction Algorithm with following options
+%% Run Detection and Correction Algorithm with following options
 options.noiseLevelWnSz                          =   0.025;  % Seconds
 % Number of bins. Recommended: 3 for DS and 5 for SS
 options.numConsecNLs                            =   3;
@@ -31,7 +31,7 @@ minTimeDiff = 0.05;
 leftFootEvents = combineUniqueEvents(vEventsL, reEventsL, minTimeDiff);
 rightFootEvents = combineUniqueEvents(vEventsR, reEventsR, minTimeDiff);
 
-%%  Find Distance between Heel markers at Heel strikes
+%% Find Distance between Heel markers at Heel strikes
 stepCount = min([length(leftFootEvents.heelStrikes) length(rightFootEvents.heelStrikes)]);
 % Left step length
 lStepLength = zeros(1, stepCount);

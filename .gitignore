@@ -10,9 +10,6 @@
 # Session info
 octave-workspace
 
-# Data-set folder
-data/*
-
 # R studio generated history
 .Rhistory
 
