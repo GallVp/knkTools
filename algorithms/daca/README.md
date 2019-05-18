@@ -1,6 +1,6 @@
-# Gait event anomaly detection and correction during a split-belt treadmill task
+# Gait Event Anomaly Detection and Correction During a Split-belt Treadmill Task
 
-DOI for the related publication: Not assigned yet.
+DOI for the related publication: Not assigned yet
 
 ## Summary
 
