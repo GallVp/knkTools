@@ -21,10 +21,10 @@ function [ vEventsL, reEventsL, vEventsR, reEventsR ] = detectAndCorrectAlgo( le
 %   Default value 20 Newtons.
 %   forceFilterCutoff: Cutoff frequency for the lowpass butterworth filter
 %   used on force data. Default value 10 Hz.
-%   noiseLevelWnSz: Window size for noise function. Default value 50
-%   miliseconds (0.05).
+%   noiseLevelWnSz: Window size for noise function. Default value 25
+%   miliseconds (0.025).
 %   numConsecNLs: Number of consececutive noise levels required for
-%   detecting invalid force. Default value 2.
+%   detecting invalid force. Default value 5.
 %   markerFilterCutoff: Cutoff frequency for the lowpass butterworth filter
 %   used on marker data. Default value 25 Hz.
 %   modeTimes: Number of modes used to detect invalid intervals of force.

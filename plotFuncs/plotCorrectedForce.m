@@ -26,8 +26,8 @@ plotEventData(correctionFigure, reEventsR, {'kd', 'ks'});
 plotInvalidForceMarkers( correctionFigure, leftPlateInvalidForceInfo, 1);
 [p{3}, ~]    = plotInvalidForceMarkers( correctionFigure, rightPlateInvalidForceInfo, 1);
 set(gca,'TickLength',[0, 0]);
-legend([p{1} p{2} p{3}], {'Heel-strike',...
-    'Toe-off', 'Correction interval'}, 'Box', 'off', 'Orientation', 'horizontal');
+legend([p{1} p{2} p{3}], {'Corrected Heel-strike',...
+    'Corrected Toe-off', 'Correction interval'}, 'Box', 'off', 'Orientation', 'horizontal');
 xlabel('Time (s)');
 ylabel('Force (N)');
 end
