@@ -19,6 +19,6 @@ Two example data files are available in the *sampleData* folder.
 To run the example, first add knkTools directory and its subfolders to MATLAB's path. Then run the `dacaExample_local.m` script. The results are shown in the below figures.
 
 <p align="center">
-<img alt="DACA Example" src="../../docs/figs/uncorrected.png" height="auto" width="45%" style="margin-right:10px;"/><img alt="DACA Example" src="../../docs/figs/corrected.png" height="auto" width="45%"/><hr>
+<img alt="DACA Example" src="../../docs/figs/uncorrected.png" height="auto" width="45%" style="margin-right:20px;"/><img alt="DACA Example" src="../../docs/figs/corrected.png" height="auto" width="45%"/><hr>
 <em>Fig 1. The step lengths obtained from the uncorrected and the gait events corrected using DACA.</em>
 </p>
