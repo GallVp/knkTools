@@ -8,7 +8,7 @@ During instrumented split-belt treadmill tasks it is challenging to avoid partia
 
 ## Example Data
 
-Two example data files are available in the *Sample Data* folder. 
+Two example data files are available in the *sampleData* folder. 
 
 1. example01_DS.mat: This example contains 15 minutes of  force plate data and 3-D kinematic data from a person walking on a split-belt treadmill in the differential speed configuration (split belts) with a belt speed ratio of 1:2.
 
@@ -19,6 +19,6 @@ Two example data files are available in the *Sample Data* folder.
 To run the example, first add knkTools directory and its subfolders to MATLAB's path. Then run the `dacaExample_local.m` script. The results are shown in the below figures.
 
 <p align="center">
-<img alt="emgGO GUIs" src="../../Docs/figs/uncorrected.png" height="auto" width="45%" style="margin-right:10px;"/><img alt="emgGO GUIs" src="../../Docs/figs/corrected.png" height="auto" width="45%"/><hr>
+<img alt="DACA Example" src="../../docs/figs/uncorrected.png" height="auto" width="45%" style="margin-right:10px;"/><img alt="DACA Example" src="../../docs/figs/corrected.png" height="auto" width="45%"/><hr>
 <em>Fig 1. The step lengths obtained from the uncorrected and the gait events corrected using DACA.</em>
 </p>
