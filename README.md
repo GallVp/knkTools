@@ -4,7 +4,7 @@ knkTools (Kinetic and Kinematic Tools) is a toolbox for analysis of gait data.
 
 ## Source Code and Tutorials related to Publications
 
-1. [README](https://github.com/GallVp/knktools/tree/master/algorithms/daca) for "Gait event anomaly detection and correction during a split-belt treadmill task", *IEEE Access*, doi: Not assigned yet
+1. [README](https://github.com/GallVp/knktools/tree/master/algorithms/daca) for "Gait event anomaly detection and correction during a split-belt treadmill task", *IEEE Access*, doi: [10.1109/ACCESS.2019.2918559](https://doi.org/10.1109/ACCESS.2019.2918559)
 
 ## Compatibility
 
