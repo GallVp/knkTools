@@ -13,8 +13,8 @@ close all
 clc
 
 %% Load Data from example01_DS.mat or example01_SS.mat
-load(fullfile(pwd, 'Sample Data', 'example01_DS.mat'));
-%load(fullfile(pwd, 'Sample Data', 'example01_SS.mat'));
+load(fullfile(pwd, 'sampleData', 'example01_DS.mat'));
+%load(fullfile(pwd, 'sampleData', 'example01_SS.mat'));
 
 %% Run Detection and Correction Algorithm with following options
 options.noiseLevelWnSz                          =   0.025;  % Seconds
