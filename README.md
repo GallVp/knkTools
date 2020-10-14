@@ -8,6 +8,8 @@ knkTools (Kinetic and Kinematic Tools) is a toolbox for analysis of gait data.
 
 2. [README](https://github.com/GallVp/knktools/tree/master/algorithms/stepSymmetryMethods) for "Evaluation of Strides to Symmetry", [Finley et. al. 2013](https://doi.org/10.1152/jn.00513.2013); [Tyrell et. al. 2014](https://doi.org/10.1152/jn.00486.2013).
 
+3. [README](https://github.com/GallVp/knktools/tree/master/exponentialModels) for "On Nonlinear Regression for Trends in Split-Belt Treadmill Training", *Brain Sciences*, doi: [10.3390/brainscixx010005](https://doi.org/10.3390/brainscixx010005)
+
 ## Compatibility
 
 Currently, knkTools is being developed on macOS Mojave, MATLAB 2017b.
