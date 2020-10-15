@@ -1,6 +1,6 @@
 # Fitting Exponential Trends in Step Length Symmetry using Nonlinear Regression
 
-DOI for the related publication: [10.3390/brainscixx010005](https://doi.org/10.3390/brainscixx010005)
+DOI for the related publication: [10.3390/brainsci10100737](https://doi.org/10.3390/brainsci10100737)
 
 ## Summary
 
